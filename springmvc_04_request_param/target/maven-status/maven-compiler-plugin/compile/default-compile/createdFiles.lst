@@ -1,0 +1,6 @@
+com\itlxl\domain\Address.class
+com\itlxl\config\SpringMvcConfig.class
+com\itlxl\config\ServletContainersInitConfig.class
+com\itlxl\controller\BookController.class
+com\itlxl\controller\UserController.class
+com\itlxl\domain\User.class

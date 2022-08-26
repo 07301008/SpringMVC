@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:09:57:20 +0800] "GET /springmvc_04_request_param/listParamForJson HTTP/1.1" 200 39 http-bio-8080-exec-2 129
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:09:57:51 +0800] "GET /springmvc_04_request_param/listParamForJson HTTP/1.1" 200 39 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:10:03:13 +0800] "GET /springmvc_04_request_param/pojoParamForJson HTTP/1.1" 200 37 http-bio-8080-exec-2 187
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:10:05:05 +0800] "GET /springmvc_04_request_param/pojoParamForJson HTTP/1.1" 200 37 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:10:21:55 +0800] "GET /springmvc_04_request_param/listpojoParamForJson HTTP/1.1" 200 37 http-bio-8080-exec-2 226
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:10:45:45 +0800] "GET /springmvc_04_request_param/dateParam?date=2088/08/08&date1=2088-08-08&date2=2088/08/08%208:08:08 HTTP/1.1" 404 949 http-bio-8080-exec-2 58
+0:0:0:0:0:0:0:1 - - [26/Aug/2022:10:46:59 +0800] "GET /springmvc_04_request_param/dateParam?date=2088/08/08&date1=2088-08-08&date2=2088/08/08%208:08:08 HTTP/1.1" 200 23 http-bio-8080-exec-2 111
