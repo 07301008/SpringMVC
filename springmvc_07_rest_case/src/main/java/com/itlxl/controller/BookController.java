@@ -38,6 +38,7 @@ public class BookController {
 
     @GetMapping
     public List<Book> getAll(){
+        System.out.println("book getAll is running ...");
         Book book1 = new Book();
         book1.setType("计算机");
         book1.setName("SpringMVC入门教程");
@@ -47,9 +48,16 @@ public class BookController {
         book2.setType("计算机");
         book2.setName("SpringMVC实战教程");
         book2.setDescription("一代宗师");
+
+        Book book3 = new Book();
+        book3.setType("计算机");
+        book3.setName("SpringMVC实战教程进阶");
+        book3.setDescription("一代宗师呕心创作");
+
         List<Book> books = new ArrayList<>();
         books.add(book1);
         books.add(book2);
+        books.add(book3);
         System.out.println("book getAll ...");
         return books;
     }

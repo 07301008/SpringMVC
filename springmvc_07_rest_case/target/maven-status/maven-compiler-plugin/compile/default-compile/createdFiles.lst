@@ -2,3 +2,4 @@ com\itlxl\config\SpringMvcConfig.class
 com\itlxl\config\ServletContainersInitConfig.class
 com\itlxl\controller\BookController.class
 com\itlxl\domain\Book.class
+com\itlxl\config\SpringMvcSupport.class
