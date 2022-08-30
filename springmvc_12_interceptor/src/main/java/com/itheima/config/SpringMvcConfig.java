@@ -22,7 +22,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        //配置多拦截器
+//        //配置多拦截器
         registry.addInterceptor(projectInterceptor).addPathPatterns("/books","/books/*");
         registry.addInterceptor(projectInterceptor2).addPathPatterns("/books","/books/*");
     }

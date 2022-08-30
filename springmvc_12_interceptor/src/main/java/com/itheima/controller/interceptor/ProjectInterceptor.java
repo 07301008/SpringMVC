@@ -17,7 +17,7 @@ public class ProjectInterceptor implements HandlerInterceptor {
     //返回值类型可以拦截控制的执行，true放行，false终止
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String contentType = request.getHeader("Content-Type");
-        HandlerMethod hm = (HandlerMethod)handler;
+//        HandlerMethod hm = (HandlerMethod)handler;
         System.out.println("preHandle..."+contentType);
         return true;
     }
